@@ -1,6 +1,10 @@
 Build a file-based key-value data store that supports the basic CRD (create, read, and delete) operations. 
 This data store is meant to be used as a local storage for one single process on one laptop.
-The data store must be exposed as a library to clients that can instantiate a class and work with the data store.
+The data store must be exposed as a library to clients that can instantiate a class and work with the data store.       
+
+SPECIFICATIONS:
+    1.Python and Spyder Software is needed.     
+    2.No specific OS is required.               
 
 
 The data store will support the following functional requirements.  
@@ -23,4 +27,5 @@ The data store will also support the following non-functional requirements.
        The data store must therefore be thread-safe.        
     4. The client will bear as little memory costs as possible to use this data store,      
        while deriving maximum performance with respect to response times for accessing the data store.      
-    
+       
+            
